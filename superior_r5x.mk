@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common PixelExperience stuff
-$(call inherit-product, vendor/wave/configs/common.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,7 +32,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := Wave_r5x
+PRODUCT_NAME := superior_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme

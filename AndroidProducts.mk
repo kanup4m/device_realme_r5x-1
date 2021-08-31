@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/wave_r5x.mk
+    $(LOCAL_DIR)/superior_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
     wave_r5x-user \
