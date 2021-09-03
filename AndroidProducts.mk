@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_r5x.mk
+    $(LOCAL_DIR)/octavi_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    wave_r5x-user \
-    wave_r5x-userdebug \
-    wave_r5x-eng
+    octavi_r5x-user \
+    octavi_r5x-userdebug \
+    octavi_r5x-eng
